@@ -1,0 +1,359 @@
+#logo{
+  position: relative;
+  top: 10px;
+  width: 92px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#search-bar{
+  height: 40px;
+  width: 700px;
+  margin-left: 20px;
+  border-radius: 30px;
+  border: 1px solid #e1e2e6;
+
+}
+
+#link-bar{
+  position: absolute;
+  top: 2px;
+  right: 30px;
+}
+#div-two {
+  position: relative;
+  top: 15px;
+  padding: 0px 0px 15px 0px;
+  border-bottom: #e6e6e6 1px solid;
+}
+
+#a-one-one {
+  position: relative;
+  left: 100px;
+  color: #595959;
+  font-size: 13px;
+  padding: 20px;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+}
+#a-one-one:hover {
+    position: auto;
+    left: 100px;
+    color: #000;
+    font-size: 13px;
+    padding: 20px;
+    text-decoration: underline;
+    font-family: arial,sans-serif;
+  }
+#a-two {
+  position: relative;
+  color: ##e6e6e6;
+  font-size: 13px;
+  left: 200px;
+  padding: 20px;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+
+}
+#a-two:hover {
+  position: relative;
+  color: #000;
+  font-size: 13px;
+  left: 200px;
+  padding: 20px;
+  text-decoration: underline;
+  font-family: arial,sans-serif;
+}
+
+#img-small-icon{
+  position: relative;
+  height: 16px;
+  width: 16px;
+  top: 2px;
+  right: 5px;
+}
+#img-grid{
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  height: 24px;
+  width: 24px;
+}
+#img-account{
+  position: relative;
+  top:36px;
+  height: 32px;
+  width: 32px;
+}
+
+.searchresultscontainer{
+  display: flex;
+  width: 60%;
+  flex-flow: column;
+  margin-left: 10%;
+}
+
+#p1{
+  color: #202124;
+  font-style: normal;
+  font-size: 14px;
+  padding-top: 1px;
+  line-height: 1.3;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: arial,sans-serif;
+  text-align: left;
+
+}
+#a1{
+  font-size: 20px;
+  line-height: 1.3;
+  padding-top: 4px;
+  margin-bottom: 3px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#a1:hover{
+  text-decoration: underline;
+}
+#a1:visited {
+    color: #609;
+}
+#description{
+  line-height: 1.58;
+  color: #4d5156;
+  font-family: 'Roboto',arial,sans-serif;
+  font-size: 14px;
+}
+
+#results{
+
+top: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+color: #70757a;
+line-height: 33px;
+padding-top: 0;
+padding-bottom: 0;
+padding-right: 8px;
+line-height: 43px;
+display: block;
+font-family: 'Roboto',arial,sans-serif;
+font-size: 14px;
+}
+.video{
+  display: flex;
+  justify-content: space-around;
+}
+
+#h1{
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: 'Roboto',arial,sans-serif;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #222
+}
+#videobox{
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+
+}
+#video-a{
+  padding: 16px 16px 0 16px;
+  display: block;
+  font-size: medium;
+  font-weight: normal;
+  font-family: arial,sans-serif;
+  height: 110px;
+  width: 178px;
+}
+#video-a:visited {
+  color: #800060;
+  font-size: medium;
+  font-weight: normal;
+  font-family: arial,sans-serif;
+}
+#video-p1{
+  margin: 0px;
+  font-size: 14px;
+  padding: 2px 0 0;
+  overflow: hidden;
+  position: relative;
+  white-space: normal;
+  color: #808080
+
+}
+.videodescription{
+  margin: 0px;
+  display: flex;
+  position: absolute;
+  height: 22px;
+  width: 150px;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  font-weight: normal
+  padding: 16px 11px;
+}
+#greycolor{
+  color: #737373;
+}
+
+.imagesection{
+  display: flex;
+  flex-flow:column;
+  width: 60%;
+  margin: 0% 10% 0% 10%;
+
+}
+#imagelink{
+  cursor: pointer;
+  color: #609;
+  color: #1a0dab;
+  font-size: 18px;
+  line-height: 1.3;
+  font-family: arial,sans-serif;
+  text-decoration: none;
+}
+#imagelink:after{
+  cursor: pointer;
+  color: #609;
+  font-size: 18px;
+  line-height: 1.3;
+  font-family: arial,sans-serif;
+  text-decoration: none;
+}
+#imagelink:hover {
+  text-decoration: underline;
+}
+.images{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+#imageborder{
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+#arrowicon{
+  height: 15px;
+  width: 20px;
+  font-size: 16px;
+  line-height: 1.43;
+  cursor: pointer;
+  text-decoration: none;
+
+  }
+  #rewq{
+    font-size: 20px;
+    line-height: 1.43;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #rewq:hover{
+    text-decoration: underline;
+  }
+#bluesearch{
+  height: 15px;
+  width: 20px;
+}
+#relatedsearch-a{
+  color: #1a0dab;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+}
+#relatedsearch-a:hover{
+  text-decoration:underline;
+  font-family: arial,sans-serif;
+  font-size: 18px;
+  color: #1a0dab;
+}
+#padding1{
+  padding: 5px 0px 5px 0px;
+}
+#style1{
+  color: #222222;
+  font-size: 20px;
+  font-family: arial,sans-serif;
+
+}
+
+.footer{
+  display: flex;
+  width: 35%;
+  flex-flow: row;
+  margin-left: 10%;
+  justify-content: space-between;
+  height: 40px;
+}
+
+#footerbackground {
+  display: block;
+  background-color: #f5eeda;
+  margin: 0px -27px -27px -27px;
+}
+#font-footer{
+  color:  #8c8c8c;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+
+}
+#font-footer:hover{
+  text-decoration: underline;
+  font-family: arial,sans-serif;
+  color: #000;
+}
+
+#grey-dot{
+  height: 15px;
+  width: 20px;
+}
+
+#location-font{
+  color: #222222;
+  font-size: 20px;
+  font-family: arial,sans-serif;
+}
+
+.result-nav{
+  display: flex;
+  flex-flow: row;
+  width: 65%;
+  margin: 0% 10% 0% 10%;
+  position: center;
+  padding: 60px 60px 60px 200px;
+  height: 30px;
+}
+.result-nav2{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 25px;
+}
+
+#nav-link{
+  color: #0000EE;
+  text-decoration: none;
+}
+
+#nav-link:hover{
+  color: #000;
+  text-decoration: underline;
+}
